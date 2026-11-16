@@ -1,0 +1,33 @@
+# Gera o .zip da skill e anexa ao release.
+# Uso: crie um release (ex.: v1.0.0) na aba Releases — o .zip aparece sozinho.
+name: Gerar .zip da skill
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compactar a skill
+        run: |
+          mkdir -p dist
+          zip -r dist/seguranca-php-mysql.zip seguranca-php-mysql -x '*.DS_Store'
+          ls -la dist
+      - name: Anexar ao release
+        if: github.event_name == 'release'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ github.event.release.tag_name }}" dist/*.zip --clobber
+      - name: Guardar como artefato (execução manual)
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
+        with:
+          name: skill-zip
+          path: dist/*.zip
