@@ -16,6 +16,8 @@ Feita para sistemas PHP + MySQL, principalmente os legados que precisam ser revi
 
 📚 **Cursos grátis de IA com certificado, 87 skills explicadas e guias em português:** [iacomousar.com.br](https://iacomousar.com.br/?utm_source=github&utm_medium=readme&utm_campaign=auditoria-seguranca-php-mysql)
 
+⭐ **Se esta skill te ajudou, deixe uma estrela no repositório.** Isso ajuda mais gente a encontrar o projeto.
+
 </div>
 
 ---
