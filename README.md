@@ -14,7 +14,7 @@ Feita para sistemas PHP + MySQL, principalmente os legados que precisam ser revi
 
 [**Instalar**](#-instalação) · [**O que analisa**](#-o-que-ela-analisa) · [**Como usar**](#-como-usar) · [**Relatório**](#-o-relatório) · [**Mais skills em português**](https://github.com/diegojgodoi-br/skills-ia-pt-br)
 
-📚 **Cursos grátis de IA com certificado, 87 skills explicadas e guias em português:** [iacomousar.com.br](https://iacomousar.com.br/?utm_source=github&utm_medium=readme&utm_campaign=auditoria-seguranca-php-mysql)
+📚 **Cursos grátis de IA com certificado, 100 skills explicadas e guias em português:** [iacomousar.com.br](https://iacomousar.com.br/?utm_source=github&utm_medium=readme&utm_campaign=auditoria-seguranca-php-mysql)
 
 ⭐ **Se esta skill te ajudou, deixe uma estrela no repositório.** Isso ajuda mais gente a encontrar o projeto.
 
